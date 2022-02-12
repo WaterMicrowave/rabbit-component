@@ -14,3 +14,12 @@
 * 链接池化：做一个连接池，进而实现高性能
 * 完备的补偿机制：可靠性投递、幂等性消费
 ~~~
+
+### 模块划分说明
+~~~
+rabbit-parent 父级
+rabbit-common 公用方法
+rabbit-api 由于模块是提供给第三方使用的，所以需要api
+rabbit-core-producer 真正发送消息（迅速消息、确认消息、延迟消息）
+rabbit-task 定时任务（用于可靠性投递处理）——elastic-job
+~~~
