@@ -1,5 +1,6 @@
 package com.hlkj.base.rabbit.api;
 
+
 import lombok.Data;
 
 import java.io.Serializable;
@@ -45,4 +46,5 @@ public class Message implements Serializable {
         this.delayMills = delayMills;
         this.messageType = messageType;
     }
+
 }

@@ -9,6 +9,6 @@ import org.springframework.context.annotation.Configuration;
 public class RabbitProducerAutoConfiguration {
 
     public RabbitProducerAutoConfiguration() {
-        // TODO: 2022/2/14  
+        // TODO: 2022/2/14
     }
 }
